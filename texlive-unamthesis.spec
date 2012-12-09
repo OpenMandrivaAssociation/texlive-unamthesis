@@ -61,3 +61,16 @@ schemes using the natbib package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.01-2
++ Revision: 757282
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.01-1
++ Revision: 719845
+- texlive-unamthesis
+- texlive-unamthesis
+- texlive-unamthesis
+
