@@ -1,12 +1,12 @@
-# revision 22500
+# revision 29799
 # category Package
 # catalog-ctan /macros/latex/contrib/unamthesis
-# catalog-date 2011-05-16 15:49:49 +0200
+# catalog-date 2013-04-10 00:46:21 +0200
 # catalog-license lppl1.3
-# catalog-version 2.01
+# catalog-version 2.02
 Name:		texlive-unamthesis
-Version:	2.01
-Release:	2
+Version:	2.02
+Release:	1
 Summary:	Style for Universidad Nacional Autonoma de Mexico theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/unamthesis
@@ -61,16 +61,3 @@ schemes using the natbib package.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Jan 05 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.01-2
-+ Revision: 757282
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.01-1
-+ Revision: 719845
-- texlive-unamthesis
-- texlive-unamthesis
-- texlive-unamthesis
-
