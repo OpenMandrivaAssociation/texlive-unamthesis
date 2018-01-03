@@ -1,12 +1,6 @@
-# revision 29799
-# category Package
-# catalog-ctan /macros/latex/contrib/unamthesis
-# catalog-date 2013-04-10 00:46:21 +0200
-# catalog-license lppl1.3
-# catalog-version 2.02
 Name:		texlive-unamthesis
-Version:	2.02
-Release:	9
+Version:	2.1
+Release:	1
 Summary:	Style for Universidad Nacional Autonoma de Mexico theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/unamthesis
@@ -36,21 +30,9 @@ schemes using the natbib package.
 
 #-----------------------------------------------------------------------
 %files
-%{_texmfdistdir}/bibtex/bst/unamthesis/UNAMThesis.bst
-%{_texmfdistdir}/tex/latex/unamthesis/UNAMThesis.sty
-%doc %{_texmfdistdir}/doc/latex/unamthesis/Escudo-IBT.eps
-%doc %{_texmfdistdir}/doc/latex/unamthesis/Escudo-IBT.pdf
-%doc %{_texmfdistdir}/doc/latex/unamthesis/Escudo-UNAM.eps
-%doc %{_texmfdistdir}/doc/latex/unamthesis/Escudo-UNAM.pdf
-%doc %{_texmfdistdir}/doc/latex/unamthesis/LEEME
-%doc %{_texmfdistdir}/doc/latex/unamthesis/License
-%doc %{_texmfdistdir}/doc/latex/unamthesis/README
-%doc %{_texmfdistdir}/doc/latex/unamthesis/Thesis-Universidad_Nacional_Autonoma_de_Mexico.shl
-%doc %{_texmfdistdir}/doc/latex/unamthesis/UNAMThesis.cst
-%doc %{_texmfdistdir}/doc/latex/unamthesis/UNAMThesis.pdf
-%doc %{_texmfdistdir}/doc/latex/unamthesis/UNAMThesis.tex
-%doc %{_texmfdistdir}/doc/latex/unamthesis/UNAMThesisSWP.tex
-%doc %{_texmfdistdir}/doc/latex/unamthesis/testBib.bib
+%{_texmfdistdir}/bibtex/bst/unamthesis
+%{_texmfdistdir}/tex/latex/unamthesis
+%doc %{_texmfdistdir}/doc/latex/unamthesis
 
 #-----------------------------------------------------------------------
 %prep
