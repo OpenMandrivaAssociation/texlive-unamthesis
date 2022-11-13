@@ -1,12 +1,12 @@
 Name:		texlive-unamthesis
-Version:	2.1
-Release:	2
+Version:	43639
+Release:	1
 Summary:	Style for Universidad Nacional Autonoma de Mexico theses
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/unamthesis
 License:	LPPL1.3
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamthesis.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamthesis.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamthesis.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamthesis.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -21,12 +21,12 @@ bibliographic style which enables the use of author-year
 schemes using the natbib package.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -36,7 +36,7 @@ schemes using the natbib package.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
