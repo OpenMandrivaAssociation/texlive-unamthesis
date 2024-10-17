@@ -3,7 +3,7 @@ Version:	43639
 Release:	2
 Summary:	Style for Universidad Nacional Autonoma de Mexico theses
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/unamthesis
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/unamthesis
 License:	LPPL1.3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamthesis.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/unamthesis.doc.r%{version}.tar.xz
